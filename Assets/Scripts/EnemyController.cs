@@ -30,6 +30,7 @@ public class EnemyController : MonoBehaviour
     private bool chooseDir = false;
     private bool coolDownAttack = false;
     public bool notInRoom = false;
+    public int enemyDmg;
     private Vector3 randomDir;
     public GameObject bulletPrefab;
     public Animator animator;
@@ -142,7 +143,7 @@ public class EnemyController : MonoBehaviour
             switch (enemyType)
             {
                 case (EnemyType.Mele):
-                    GameController.DamagePlayer(1);
+                    GameController.DamagePlayer(enemyDmg);
                     StartCoroutine(CoolDown());
                     break;
                 case (EnemyType.Ranged):
@@ -150,6 +151,9 @@ public class EnemyController : MonoBehaviour
                     bullet.GetComponent<BulletController>().GetPlayer(player.transform);
                     bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
                     bullet.GetComponent<BulletController>().isEnemyBullet = true;
+                    BulletController bulletController = bullet.GetComponent<BulletController>(); 
+                    bulletController.SetDamage(enemyDmg); 
+                    
                     StartCoroutine(CoolDown());
                     break;
             }
@@ -191,7 +195,7 @@ public class EnemyController : MonoBehaviour
     void LookAtPlayer()
     {
         Vector3 direction = player.transform.position - transform.position;
-        direction.y = 0; // Ignorowanie zmiany wysoko�ci
+        direction.y = 0;
 
         if (direction != Vector3.zero)
         {

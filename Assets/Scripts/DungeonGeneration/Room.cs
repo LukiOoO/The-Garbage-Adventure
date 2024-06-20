@@ -87,33 +87,65 @@ public class Room : MonoBehaviour
         }
     }
 
-    
-
     public void RemoveUnconnectedDoors()
     {
         foreach (Door door in doors)
         {
+            bool deactivateDoor = false;
+            Vector2 barrierSize = Vector2.zero;
+            Vector3 barrierPosition = door.transform.position;
+
             switch (door.doorType)
             {
                 case Door.DoorType.right:
                     if (GetRight() == null)
-                        door.gameObject.SetActive(false);
+                    {
+                        deactivateDoor = true;
+                        barrierSize = new Vector2(1, Height); 
+                        barrierPosition += new Vector3(0.45f *  Width, 0, 0); 
+                    }
                     break;
                 case Door.DoorType.left:
                     if (GetLeft() == null)
-                        door.gameObject.SetActive(false);
+                    {
+                        deactivateDoor = true;
+                        barrierSize = new Vector2(1, Height); 
+                        barrierPosition -= new Vector3(0.45f * Width, 0, 0);
+                    }
                     break;
                 case Door.DoorType.top:
                     if (GetTop() == null)
-                        door.gameObject.SetActive(false);
+                    {
+                        deactivateDoor = true;
+                        barrierSize = new Vector2(Width, 1); 
+                        barrierPosition += new Vector3(0, 0.4f * Height, 0);
+                    }
                     break;
                 case Door.DoorType.bottom:
                     if (GetBottom() == null)
-                        door.gameObject.SetActive(false);
+                    {
+                        deactivateDoor = true;
+                        barrierSize = new Vector2(Width, 1); 
+                        barrierPosition -= new Vector3(0, 0.45f * Height, 0); 
+                    }
                     break;
+            }
+
+            if (deactivateDoor)
+            {
+                door.gameObject.SetActive(false);
+
+                GameObject boundary = new GameObject("Boundary");
+                boundary.transform.position = barrierPosition;
+                boundary.transform.parent = transform;
+                BoxCollider2D collider = boundary.AddComponent<BoxCollider2D>();
+                collider.size = barrierSize;
             }
         }
     }
+
+
+
 
     public Room GetRight()
     {

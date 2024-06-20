@@ -150,6 +150,7 @@ MonoBehaviour:
   attackRange: 10
   coolDown: 0.001
   notInRoom: 0
-  bulletPrefab: {fileID: 3601216754781091479, guid: a5ee7d5394416254aa04b5f26f3b6bd7, type: 3}
+  enemyDmg: 4
+  bulletPrefab: {fileID: 3601216754781091479, guid: 18f0e01075122514780c79337986f3a5, type: 3}
   animator: {fileID: 0}
   maxHP: 100
