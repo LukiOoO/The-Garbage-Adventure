@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 99d28010f92cad84a8bf4fd0627f754c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 383, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pumpkin_portal1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdfbac1ccfcaa449aa5970cea165665
+      internalID: 972457721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_portal1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8792a4d53fbb34c93a20850ca63f4c
+      internalID: 435506736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_portal1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703cfe9d0553c70459cfaf9c9a49796e
+      internalID: 1573349371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_portal1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4983346fb34e4429487401728f6e26
+      internalID: 1778544548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -220, y: 48}
+      - {x: -255, y: -3}
+      - {x: -255, y: -46}
+      - {x: -253, y: -48}
+      - {x: -251, y: -48}
+      - {x: -248, y: -50}
+      - {x: -130, y: -50}
+      - {x: -130, y: 17}
+      - {x: -174, y: 48}
+    - - {x: -89, y: 49}
+      - {x: -127, y: 27}
+      - {x: -127, y: -50}
+      - {x: -5, y: -50}
+      - {x: -2, y: -47}
+      - {x: -2, y: 32}
+      - {x: -10, y: 49}
+    - - {x: 94, y: 44}
+      - {x: 88, y: 49}
+      - {x: 85, y: 50}
+      - {x: 43, y: 50}
+      - {x: 1, y: 10}
+      - {x: 1, y: -50}
+      - {x: 124, y: -50}
+      - {x: 126, y: -43}
+      - {x: 126, y: -6}
+      - {x: 108, y: 30}
+    - - {x: 178, y: 50}
+      - {x: 129, y: 5}
+      - {x: 129, y: -50}
+      - {x: 253, y: -50}
+      - {x: 254, y: -49}
+      - {x: 254, y: 4}
+      - {x: 227, y: 50}
+    - - {x: -237, y: -37}
+      - {x: -237, y: -34}
+      - {x: -233, y: -34}
+      - {x: -230, y: -36}
+      - {x: -231, y: -36}
+      - {x: -234, y: -39}
+      - {x: -234, y: -41}
+      - {x: -232, y: -42}
+      - {x: -232, y: -40}
+    - - {x: -109, y: -37}
+      - {x: -109, y: -34}
+      - {x: -105, y: -34}
+      - {x: -102, y: -36}
+      - {x: -103, y: -36}
+      - {x: -106, y: -39}
+      - {x: -106, y: -41}
+      - {x: -104, y: -42}
+      - {x: -104, y: -40}
+    - - {x: 19, y: -37}
+      - {x: 19, y: -34}
+      - {x: 23, y: -34}
+      - {x: 26, y: -36}
+      - {x: 25, y: -36}
+      - {x: 22, y: -39}
+      - {x: 22, y: -41}
+      - {x: 24, y: -42}
+      - {x: 24, y: -40}
+    - - {x: 147, y: -37}
+      - {x: 147, y: -34}
+      - {x: 151, y: -34}
+      - {x: 154, y: -36}
+      - {x: 153, y: -36}
+      - {x: 150, y: -39}
+      - {x: 150, y: -41}
+      - {x: 152, y: -42}
+      - {x: 152, y: -40}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pumpkin_portal1_0: 972457721
+      Pumpkin_portal1_1: 435506736
+      Pumpkin_portal1_2: 1573349371
+      Pumpkin_portal1_3: 1778544548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
